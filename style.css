@@ -1,0 +1,152 @@
+/* font-family: "Archivo", sans-serif; */
+
+
+
+body {
+    font-family: "Archivo", sans-serif;
+}
+
+.header-page {
+    background-color: #f8f8f8;
+}
+
+header h1 {
+    color: #333;
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 23rem;
+}
+
+header ul {
+    margin-top: 1rem;
+    font-weight: normal;
+}
+
+header ul li {
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+header li a {
+    float: right;
+    color: #333;
+    text-decoration-color: gold;
+}
+
+header li a:hover {
+    color: gold;
+    text-decoration-color: #333;
+}
+
+header img {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: 1.2rem;
+}
+
+header p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+span img {
+    animation: rotation 7s infinite linear;
+}
+
+#smiley-img:hover {
+    animation-play-state: paused;
+}
+
+
+/* work page */
+
+.work-header {
+    position: sticky;
+}
+
+.work-header img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.work-smiley {
+    margin: 1rem 1rem;
+}
+
+.work-header ul li {
+    display: inline-block;
+    padding-right: 1.5rem;
+}
+
+.work-desc a {
+    color: #333;
+    text-decoration: none;
+}
+
+.work-desc a:hover {
+    color: gold;
+}
+
+.riley-desc a {
+    color: #333;
+    text-decoration: underline;
+    text-decoration-color: gold;
+}
+
+.work p {
+    margin-bottom: 0.5rem;
+    
+}
+
+/* contact page */
+
+.contact-info h2 {
+    font-size: 3rem;
+}
+
+.contact-info p {
+    font-size: 1.5rem;
+}
+
+.contact-info a {
+    background-color: gold;
+    border: none;
+    color: #333;
+}
+
+.contact-info a:hover {
+    background-color: #333;
+    border: none;
+    color: gold;
+}
+
+
+.contact-footer h1 {
+    color: #333;
+    font-size: 9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 23rem;
+}
+
+.contact-footer img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 1.2rem;
+}
+
+
+
+/* media queries */
+
