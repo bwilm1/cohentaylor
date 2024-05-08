@@ -118,11 +118,11 @@ span img {
 /* contact page */
 
 .contact-info h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .contact-info p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .contact-info a {
@@ -135,15 +135,6 @@ span img {
     background-color: #333;
     border: none;
     color: gold;
-}
-
-
-.contact-footer h1 {
-    color: #333;
-    font-size: 9rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 23rem;
 }
 
 .contact-footer img {
