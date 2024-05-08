@@ -118,17 +118,20 @@ span img {
 /* contact page */
 
 .contact-info h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .contact-info p {
-    font-size: 1.25rem;
+    font-size: 1.175rem;
 }
 
 .contact-info a {
     background-color: gold;
     border: none;
     color: #333;
+    font-weight: 700;
+    padding: 0.75rem;
 }
 
 .contact-info a:hover {
