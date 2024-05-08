@@ -10,12 +10,18 @@ body {
     background-color: #f8f8f8;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* This ensures the header stays on top of other elements */
+}
+
 header h1 {
     color: #333;
     font-size: 6rem;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 23rem;
+    margin-bottom: 22rem;
 }
 
 header ul {
@@ -146,7 +152,22 @@ span img {
     margin-bottom: 1.2rem;
 }
 
-
+.embed-responsive video {
+    width: 100%;
+    height: auto;
+}
 
 /* media queries */
 
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 4rem;
+        margin-bottom: 15rem;
+    }
+
+    header img {
+        margin-top: 0.4rem;
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+}
