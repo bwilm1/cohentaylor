@@ -117,6 +117,15 @@ span img {
     
 }
 
+.riley-stewart a {
+    color: #333;
+    text-decoration-color: gold;
+}
+
+.riley-stewart a:hover {
+    color: gold;
+}
+
 /* contact page */
 
 .contact-info h2 {
@@ -138,9 +147,9 @@ span img {
 }
 
 .contact-info a:hover {
-    background-color: #444;
+    background-color: #555;
     border: none;
-    color: gold;
+    color: #f8f8f8;
 }
 
 .contact-footer img {
