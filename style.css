@@ -1,9 +1,10 @@
 /* font-family: "Archivo", sans-serif; */
+/* font-family: "Red Hat Display", sans-serif; */
 
 
 
 body {
-    font-family: "Archivo", sans-serif;
+    font-family: "Red Hat Display", sans-serif;
 }
 
 .header-page {
@@ -21,14 +22,14 @@ header {
 header h1 {
     color: #333;
     font-size: 6rem;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 22rem;
 }
 
 header ul {
     margin-top: 1rem;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 header ul li {
@@ -97,18 +98,18 @@ span img {
 }
 
 .work-desc a {
-    color: #333;
+    color: #f8f8f8;
     text-decoration: none;
-}
-
-.work-desc a:hover {
-    color: gold;
 }
 
 .riley-desc a {
     color: #333;
     text-decoration: underline;
     text-decoration-color: gold;
+}
+
+.riley-desc a:hover {
+    color: gold;
 }
 
 .work p {
@@ -128,17 +129,18 @@ span img {
 }
 
 .contact-info a {
-    background-color: gold;
+    background-color: #333;
     border: none;
-    color: #333;
+    border-radius: 3px;
+    color: #f8f8f8;
     font-weight: 700;
-    padding: 0.75rem;
+    padding: 0.5rem;
 }
 
 .contact-info a:hover {
-    background-color: #333;
+    background-color: #444;
     border: none;
-    color: #f8f8f8;
+    color: gold;
 }
 
 .contact-footer img {
