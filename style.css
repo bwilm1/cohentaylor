@@ -199,5 +199,6 @@ span img {
     header img {
         width: 3.25rem;
         height: 3.25rem;
+        margin-bottom: 0.8rem;
     }
 }
