@@ -51,7 +51,7 @@ header li a:hover {
 header img {
     width: 4.5rem;
     height: 4.5rem;
-    margin-bottom: 0.65rem;
+    margin-bottom: 1.075rem;
 }
 
 header p {
@@ -200,6 +200,4 @@ span img {
         width: 3.25rem;
         height: 3.25rem;
     }
-
-
 }
