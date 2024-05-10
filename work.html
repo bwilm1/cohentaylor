@@ -40,11 +40,11 @@
         </div>
     </header>
     <main class="work">
-        <div class="d-md-flex mb-5">
-            <div class="w-75">
+        <div class="d-md-flex mb-5 md-w-100">
+            <div class="w-50">
                 <img class="img-fluid" src="img/true-glamour/zombie.png" alt="">
             </div>
-            <div class="work-desc ms-md-5">
+            <div class="work-desc ms-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">True Glamour</h3>
                 <p class="fs-5">04/13/24</p>
                 <a href="trueglamour.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -52,10 +52,10 @@
         </div>
 
         <div class="d-md-flex mb-5 flex-md-row-reverse">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/cover-up.png" alt="">
             </div>
-            <div class="work-desc me-md-5">
+            <div class="work-desc me-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Untitled</h3>
                 <p class="fs-5">02/23/24</p>
                 <a href="untitled.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -63,10 +63,10 @@
         </div>
 
         <div class="d-md-flex mb-5">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/diesel.png" alt="">
             </div>
-            <div class="work-desc ms-md-5">
+            <div class="work-desc ms-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Diesel: Mock Campaign</h3>
                 <p class="fs-5">04/02/24</p>
                 <a href="diesel.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -77,7 +77,7 @@
             <div class="w-50">
                 <img class="img-fluid" src="img/marriage.png" alt="">
             </div>
-            <div class="work-desc me-md-5">
+            <div class="work-desc me-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Happily Ever After</h3>
                 <p class="fs-5">02/05/24</p>
                 <a href="happilyeverafter.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -85,21 +85,21 @@
         </div>
 
         <div class="d-md-flex mb-5">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/wild-monsters.png" alt="">
             </div>
-            <div class="work-desc ms-md-5">
+            <div class="work-desc ms-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">WTWTA</h3>
-                <p class="fs-5">12/13/23 </p>
+                <p class="fs-5">12/13/23</p>
                 <a href="wtwta.html"><button type="button" class="btn btn-dark">See More...</button></a>
             </div>
         </div>
 
         <div class="d-md-flex mb-5 flex-md-row-reverse">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/studio.png" alt="">
             </div>
-            <div class="work-desc me-md-5">
+            <div class="work-desc me-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold riley-desc">Commercial Retouching for Luxton Woman with Photos by <a href="https://www.rileystewartphoto.com">Riley Stewart</a></h3>
                 <p class="fs-5">11/08/23</p>
                 <a href="rileystewart.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -107,10 +107,10 @@
         </div>
 
         <div class="d-md-flex mb-5">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/funeral.png" alt="">
             </div>
-            <div class="work-desc ms-md-5">
+            <div class="work-desc ms-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Mourning</h3>
                 <p class="fs-5">10/18/23</p>
                 <a href="mourning.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -118,10 +118,10 @@
         </div>
 
         <div class="d-md-flex mb-5 flex-md-row-reverse">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/western.png" alt="">
             </div>
-            <div class="work-desc me-md-5">
+            <div class="work-desc me-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Family Portrait</h3>
                 <p class="fs-5">11/08/23</p>
                 <a href="familyportrait.html"><button type="button" class="btn btn-dark">See More...</button></a>
@@ -129,23 +129,37 @@
         </div>
 
         <div class="d-md-flex mb-5">
-            <div>
-                <div class="embed-responsive embed-responsive-16by9 mx-5">
+            <div class="w-50">
+                <div class="embed-responsive embed-responsive-16by9">
                     <video class="embed-responsive-item" controls>
-                        <source src="mp4/11_28_23_ Glitch.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <source src="mp4/11_28_23_ Glitch.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
-            <div class="work-desc ms-md-5">
+            <div class="work-desc ms-md-5 mb-5">
                 <h3 class="fs-2 mt-2 fw-bold">Glitch</h3>
                 <p class="fs-5">11/29/23</p>
                 <a href="glitch.html"><button type="button" class="btn btn-dark">See More...</button></a>
             </div>
+            <script>
+                const video = document.querySelector('video');
+                video.addEventListener('click', () => {
+                    if (video.requestFullscreen) {
+                    video.requestFullscreen();
+                    } else if (video.mozRequestFullScreen) { // Firefox
+                    video.mozRequestFullScreen();
+                    } else if (video.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                    video.webkitRequestFullscreen();
+                    } else if (video.msRequestFullscreen) { // IE/Edge
+                    video.msRequestFullscreen();
+                    }
+                });
+            </script>
         </div>
 
         <div class="d-md-flex mb-5 flex-md-row-reverse">
-            <div class="w-75">
+            <div class="w-50">
                 <img class="img-fluid" src="img/wakeup.png" alt="">
             </div>
             <div class="work-desc me-md-5">

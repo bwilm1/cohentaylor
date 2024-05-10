@@ -169,7 +169,7 @@ span img {
 
 /* media queries */
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     main {
         display: flex;
         flex-direction: column;
