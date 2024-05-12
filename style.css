@@ -126,6 +126,11 @@ span img {
     color: gold;
 }
 
+.work-img {
+    width: 50%;
+    height: auto;
+}
+
 /* contact page */
 
 .contact-info h2 {
@@ -199,5 +204,10 @@ span img {
         width: 3.25rem;
         height: 3.25rem;
         margin-bottom: 0.8rem;
+    }
+
+    .work-img {
+        width: 100%;
+        height: auto;
     }
 }
