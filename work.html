@@ -141,12 +141,12 @@
 
         <div class="d-md-flex mb-5">
             <div class="work-img">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <video class="embed-responsive-item" controls>
-                    <source src="mp4/11_28_23_ Glitch.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                    </video>
-                </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" controls playsinline>
+                <source src="mp4/11_28_23_ Glitch.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+            </div>
             </div>
             <div class="work-desc ms-md-5 mb-3">
                 <h3 class="fs-2 mt-2 fw-bold">Glitch</h3>
@@ -154,18 +154,18 @@
                 <a href="glitch.html"><button type="button" class="btn btn-dark">See More...</button></a>
             </div>
             <script>
-                const video = document.querySelector('video');
-                video.addEventListener('click', () => {
-                    if (video.requestFullscreen) {
-                    video.requestFullscreen();
-                    } else if (video.mozRequestFullScreen) { // Firefox
-                    video.mozRequestFullScreen();
-                    } else if (video.webkitRequestFullscreen) { // Chrome, Safari and Opera
-                    video.webkitRequestFullscreen();
-                    } else if (video.msRequestFullscreen) { // IE/Edge
-                    video.msRequestFullscreen();
-                    }
-                });
+            const video = document.querySelector('video');
+            video.addEventListener('click', () => {
+                if (video.requestFullscreen) {
+                video.requestFullscreen();
+                } else if (video.mozRequestFullScreen) { // Firefox
+                video.mozRequestFullScreen();
+                } else if (video.webkitRequestFullscreen) { // Chrome, Safari and Opera
+                video.webkitRequestFullscreen();
+                } else if (video.msRequestFullscreen) { // IE/Edge
+                video.msRequestFullscreen();
+                }
+            });
             </script>
         </div>
 
